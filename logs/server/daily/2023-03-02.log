@@ -148,3 +148,5 @@ info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-02T1
 info: Connected to the database. {"timestamp":"2023-03-02T10:12:27.190Z"}
 info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-02T10:22:55.487Z"}
 info: Connected to the database. {"timestamp":"2023-03-02T10:22:55.534Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-02T11:28:40.590Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T11:28:40.621Z"}

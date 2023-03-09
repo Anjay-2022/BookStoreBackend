@@ -3,7 +3,7 @@ import * as bookstoreService from '../services/bookstore.service';
 
 export const getAllbook = async (req, res, next) => {
   try {
-    const data = await bookstoreService.getAllbook(req.body);
+    const data = await bookstoreService.getAllbook(req.query,req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

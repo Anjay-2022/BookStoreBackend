@@ -1,0 +1,103 @@
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T06:59:54.610Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T06:59:54.927Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T07:05:08.239Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T07:05:08.279Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T07:18:50.039Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T07:18:50.074Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T07:19:47.346Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T07:19:47.397Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T07:20:16.556Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T07:20:16.611Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T07:21:20.253Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T07:21:20.309Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T07:21:47.659Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T07:21:47.708Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T08:09:56.303Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T08:09:56.404Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishList/add/6214803b05253301a4fda584 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-06T08:10:15.445Z"}
+error: 
+    status - 500 
+    message - Error: Book already is in Wishlist 
+    at _callee$ (E:\bookstore\src\services\/wishList.service.js:37:23)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/add/6215892405253301a4fda5d2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T08:11:16.766Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T08:15:50.653Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T08:15:50.685Z"}
+error: 
+    status - 500 
+    message - Error: Book doen't not exists in wishList
+    at _callee2$ (E:\bookstore\src\services\/wishList.service.js:55:19)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/remove/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T08:16:49.535Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T08:17:38.092Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T08:17:38.140Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T08:17:49.087Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T08:17:49.119Z"}
+error: 
+    status - 500 
+    message - Error: Book does't not exists in wishList
+    at _callee2$ (E:\bookstore\src\services\/wishList.service.js:55:19)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/remove/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T08:21:10.780Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T16:52:31.108Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T16:52:33.149Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T16:53:46.463Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T16:53:46.542Z"}
+error: 
+    status - 500 
+    message - Error: Book already is in Wishlist 
+    at _callee$ (E:\bookstore\src\services\/wishList.service.js:36:23)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/add/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T16:53:52.962Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T16:55:53.173Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T16:55:53.228Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T17:02:37.240Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T17:02:37.275Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T17:02:48.391Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T17:02:48.469Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T17:03:10.654Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T17:03:10.688Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T17:04:26.582Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T17:04:26.620Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T17:04:42.207Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T17:04:42.246Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-06T17:06:07.953Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T17:06:07.992Z"}
