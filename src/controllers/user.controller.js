@@ -5,7 +5,6 @@ import * as UserService from '../services/user.service';
 export const loginUser = async (req, res, next) => {
   try {
     const data = await UserService.loginUser(req.body);
-    console.log(data)
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

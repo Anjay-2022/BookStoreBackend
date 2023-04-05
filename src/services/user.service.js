@@ -3,7 +3,7 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
 import dotenv from 'dotenv';
 import { forgetemail } from '../utils/user.util';
-import { sender } from '../config/rabbitmq';
+
 dotenv.config();
 
 let key = process.env.key
@@ -21,7 +21,6 @@ export const loginUser = async (body) => {
             token = jwt.sign({ email: data.email, id: data._id }, key);
           }
         })
-      sender(body)  
       return token
     } else
       throw new Error("User is not registered.")
@@ -38,7 +37,6 @@ export const registerUser = async (body) => {
     const hashedpwd = await bcrypt.hash(body.password, saltrounds)
     body.password = hashedpwd
     const data = await User.create(body);
-    sender(data)
     return data;
   }
 };
@@ -57,7 +55,6 @@ export const sendmailtoresetpass = async (body) => {
 export const resetPassword = async (body) => {
     const data = await User.findOne({ email: body.email });
     if (data != null) {
-      console.log("-----------")
       const saltrounds = await bcrypt.genSalt(10);
       const hashedpwd = await bcrypt.hash(body.password, saltrounds)
       const updatedUser = await User.updateOne(

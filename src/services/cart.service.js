@@ -3,10 +3,9 @@ import Booksdb from '../models/book.model.js';
 
 //Add a book to cart
 export const addBooktocart = async (id, body) => {
-  console.log("----body--",body)
-  //console.log("==========id--ADD===", id)
+
   const data = await Booksdb.findOne({ _id:id })
-  //console.log("----data-----", data)
+
   let bookdetails = {
     "productID": data._id,
     "description": data.description,
@@ -14,15 +13,14 @@ export const addBooktocart = async (id, body) => {
     "author": data.author,
     "price": data.price
   }
-  //console.log("-----book details---",bookdetails)
-  if (data != null && data.quantity > 0) {
+   if (data != null && data.quantity > 0) {
     
     //updating decreased quantity of book in data base of Booksdb
     await Booksdb.updateOne({ _id: id }, { $set: { quantity: data.quantity-1 } })
 
     const book = []
     const Cart = await Cartdb.findOne({ $and: [{ email: body.email }, { isPurchased : false }] });
-    //console.log(Cart)
+
     if (Cart == null) {
       book.push(bookdetails)
       body.books = book
@@ -34,15 +32,13 @@ export const addBooktocart = async (id, body) => {
       return createCart
     } else {
       const bookExist = await Cart.books.find((value) => value.productID == id)
-      //console.log("----books exist in cart or not---", bookExist)
+
       if (bookExist == null) {  
         Cart.books.push(bookdetails)
         Cart.cartTotal += data.price
         await Cart.save()
         return Cart
       } else {
-        //console.log("already exits code called ")
-        //console.log(bookExist.quantity)  
         bookExist.quantity += 1
         Cart.cartTotal += bookExist.price
         await Cart.save()
@@ -60,17 +56,17 @@ export const addBooktocart = async (id, body) => {
 export const removeBookfromcart = async (id, body) => {
   //this is used for updating increased quantity in Booksdb because we removed  one book from cart it should update in Booksdb 
   const data = await Booksdb.findOne({ _id:id })
-
+  
   const Cart = await Cartdb.findOne({ $and: [{ email: body.email }, { isPurchased : false }] });
   if (Cart !== null) {
     const bookExist = await Cart.books.find((value) => value.productID == id)
-    //console.log("-------bookexits quantity check in removebook--------",bookExist)
     if (bookExist != null) {
-
-    //updating quantity of book in data base of Booksdb
+   
+      //updating quantity of book in data base of Booksdb
     await Booksdb.updateOne({ _id: id }, { $set: { quantity: data.quantity+1 } })
-
-     if (bookExist.quantity > 1) {
+     
+    
+    if (bookExist.quantity > 1) {
         bookExist.quantity -= 1
         Cart.cartTotal -= bookExist.price
         await Cart.save()
@@ -81,10 +77,8 @@ export const removeBookfromcart = async (id, body) => {
         Cart.save()
         return Cart
       }
-
     } else
       throw new Error("Book does't not exists in cart")
-
   } else
     throw new Error("Cart of user not exists")
 }

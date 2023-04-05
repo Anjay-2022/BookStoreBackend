@@ -1932,3 +1932,47 @@ error:
    {"timestamp":"2023-03-09T05:34:46.874Z"}
 info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-09T06:20:06.684Z"}
 info: Connected to the database. {"timestamp":"2023-03-09T06:20:06.737Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-16T13:46:48.319Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\bookstore\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\bookstore\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\bookstore\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\bookstore\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\bookstore\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at database (E:\\bookstore\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (E:\\bookstore\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (E:\\bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (E:\\bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:82:12)\n    at Object.<anonymous> (E:\\bookstore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-03-16T13:47:18.473Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-16T13:47:42.803Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T13:47:53.715Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-16T13:49:45.004Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T13:49:45.044Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-16T13:52:17.618Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T13:52:17.674Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-16T13:52:36.091Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T13:52:36.127Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-16T13:53:13.238Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T13:53:13.277Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-03-16T13:54:19.178Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\bookstore\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\bookstore\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\bookstore\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\bookstore\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\bookstore\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\bookstore\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (E:\\bookstore\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at database (E:\\bookstore\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (E:\\bookstore\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (E:\\bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (E:\\bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:82:12)\n    at Object.<anonymous> (E:\\bookstore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:82:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-03-16T13:54:49.173Z"}
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-04-05T12:59:36.734Z"}
+info: Connected to the database. {"timestamp":"2023-04-05T12:59:36.933Z"}
+error: 
+    status - 500 
+    message - Error: Book already is in Wishlist 
+    at _callee$ (E:\bookstore\src\services\/wishList.service.js:34:23)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/add/621588d505253301a4fda5cf 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-05T13:08:50.207Z"}
+error: 
+    status - 500 
+    message - Error: Book does't not exists in wishList
+    at _callee2$ (E:\bookstore\src\services\/wishList.service.js:52:19)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/remove/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-05T13:08:59.921Z"}

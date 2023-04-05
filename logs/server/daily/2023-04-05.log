@@ -1,0 +1,30 @@
+info: Server started at http://localhost:5455/api/v1/ {"timestamp":"2023-04-05T12:59:36.734Z"}
+info: Connected to the database. {"timestamp":"2023-04-05T12:59:36.933Z"}
+error: 
+    status - 500 
+    message - Error: Book already is in Wishlist 
+    at _callee$ (E:\bookstore\src\services\/wishList.service.js:34:23)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/add/621588d505253301a4fda5cf 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-05T13:08:50.207Z"}
+error: 
+    status - 500 
+    message - Error: Book does't not exists in wishList
+    at _callee2$ (E:\bookstore\src\services\/wishList.service.js:52:19)
+    at tryCatch (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishList/remove/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-05T13:08:59.921Z"}
